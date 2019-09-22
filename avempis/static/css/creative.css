@@ -10782,3 +10782,18 @@ footer.footer .social-link:hover {
   background-color: #d6370c;
   text-decoration: none;
 }
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .map {
+    height: 50%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
