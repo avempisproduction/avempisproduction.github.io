@@ -10,6 +10,8 @@
 
   <!-- Font Awesome Icons -->
   <link href="./static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="./static/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
@@ -57,14 +59,34 @@
   {% endblock %}
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <footer class="footer text-center">
     <div class="container">
-      <div class="small text-center text-muted" id="copyright">
-        Copyright &copy;
-        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-        - Avempis Studio
-      </div>
+
+      <ul class="list-inline mb-5">
+
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="icon-social-facebook"></i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="#">
+            <i class="icon-social-instagram"></i>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-muted small mb-0">Copyright &copy; Avempis <span id="current-year"></p>
     </div>
+
   </footer>
 
   <!-- Bootstrap core JavaScript -->
