@@ -39,13 +39,5 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    window.location.href = '"%url%';
-    },
-    image: {
-      tError: '<a href="%url%">The site #%curr%</a> could not be found.'
-    }
-  });
 
 })(jQuery); // End of use strict
